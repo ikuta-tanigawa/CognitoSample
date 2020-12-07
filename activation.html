@@ -1,0 +1,31 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Activation</title>
+<script src="js/aws-cognito/jsbn.js"></script>
+<script src="js/aws-cognito/jsbn2.js"></script>
+<script src="js/aws-cognito/sjcl.js"></script>
+<script src="js/aws-cognito/aws-sdk.min.js"></script>
+<script src="js/aws-cognito/aws-cognito-sdk.min.js"></script>
+<script src="js/aws-cognito/amazon-cognito-identity.min.js"></script>
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/config.js"></script>
+<script src="js/activation.js"></script>
+ 
+</head>
+<body>
+    <div id="activation">
+        <h1>Activation</h1>
+        <div id="message"><span style="color: red;"></span></div>
+        <form name="form-activation">
+            <span style="display: inline-block; width: 150px;">Email Address</span>
+            <input type="text" id="email" placeholder="Email Address">
+            <br/>
+            <span style="display: inline-block; width: 150px;">Activation Key</span>
+            <input type="text" id="activationKey" placeholder="Activation Key">
+            <br/><br/>
+            <input type="button" id="activationButton" value="Activation">
+        </form>
+    </div>
+</body>
+</html>
